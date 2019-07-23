@@ -1,0 +1,274 @@
+/*Setting Up Git using bash*/
+
+
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 ~
+$ git config --global user.name "Shashank Rajbhandari"
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 ~
+$ git config --global user.name
+Shashank Rajbhandari
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 ~
+$ git config --global user.email "shawdatcoder@gmail.com"
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 ~
+$ git config --global user.email
+shawdatcoder@gmail.com
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 ~
+$ cd D:\The Project
+bash: cd: too many arguments
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 ~
+$ cd D:\
+> ls
+bash: cd: D:ls: No such file or directory
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 ~
+$ cd d:\
+> ls
+bash: cd: d:ls: No such file or directory
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 ~
+$ ls
+'3D Objects'/             ntuser.dat.LOG1
+ AppData/                 ntuser.dat.LOG2
+ Apple/                   NTUSER.DAT{157e0fce-7d10-11e9-ba5a-9ebc57d5ad60}.TM.blf
+'Application Data'@       NTUSER.DAT{157e0fce-7d10-11e9-ba5a-9ebc57d5ad60}.TMContainer00000000000000000001.regtrans-ms
+ Contacts/                NTUSER.DAT{157e0fce-7d10-11e9-ba5a-9ebc57d5ad60}.TMContainer00000000000000000002.regtrans-ms
+ Cookies@                 ntuser.ini
+ Desktop/                 OneDrive/
+ Documents/               Pictures/
+ Downloads/               PrintHood@
+ Favorites/               Recent@
+'Google Drive'/           Roaming/
+ IntelGraphicsProfiles/  'Saved Games'/
+ Links/                   Searches/
+'Local Settings'@         SendTo@
+ MicrosoftEdgeBackups/    source/
+ Music/                  'Start Menu'@
+'My Documents'@           Templates@
+ NetHood@                 Videos/
+ NTUSER.DAT
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 ~
+$ cd ..
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /c/Users
+$ cd..
+bash: cd..: command not found
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /c/Users
+$ cd d:\
+>
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /d
+$ ls
+ Programs/  'System Volume Information'/  'The Project'/
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /d
+$ cd The Project
+bash: cd: too many arguments
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /d
+$ cd TheProject
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /d/TheProject
+$ git clone git@github.com:shawdatcoder/projectrepo
+Cloning into 'projectrepo'...
+The authenticity of host 'github.com (192.30.255.112)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,192.30.255.112' (RSA) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /d/TheProject
+$ git clone git@github.com:shawdatcoder/projectrepo
+Cloning into 'projectrepo'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /d/TheProject
+$ ls -al ~/.ssh
+total 13
+drwxr-xr-x 1 Shash 197609   0 Jul 22 20:43 ./
+drwxr-xr-x 1 Shash 197609   0 Jul 22 20:43 ../
+-rw-r--r-- 1 Shash 197609 407 Jul 22 20:43 known_hosts
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /d/TheProject
+$ ssh-keygen -t rsa -b 4096 -C "shawdatcoder@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Shash/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Shash/.ssh/id_rsa.
+Your public key has been saved in /c/Users/Shash/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:Zkfq/VROtdp3VPRAu+NJAWYVTImOBRDbgWoxvutprHU shawdatcoder@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|        o+o.+**o.|
+|      o .o +o.o+.|
+|     . +. o+  o +|
+|      +  o. .  +o|
+|     . .S .   *..|
+|      .+ o   *o+ |
+|     ...E . ..+.o|
+|     .+o   o    o|
+|    .+o     .    |
++----[SHA256]-----+
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /d/TheProject
+$ eval $(ssh-agent -s)
+Agent pid 1865
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /d/TheProject
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/Shash/.ssh/id_rsa (shawdatcoder@gmail.com)
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /d/TheProject
+$ clip < ~/.ssh/id_rsa.pub
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /d/TheProject
+$ gpg --full-generate-key
+gpg (GnuPG) 2.2.16-unknown; Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+gpg: directory '/c/Users/Shash/.gnupg' created
+gpg: keybox '/c/Users/Shash/.gnupg/pubring.kbx' created
+Please select what kind of key you want:
+   (1) RSA and RSA (default)
+   (2) DSA and Elgamal
+   (3) DSA (sign only)
+   (4) RSA (sign only)
+Your selection? 1
+RSA keys may be between 1024 and 4096 bits long.
+What keysize do you want? (2048) 4096
+Requested keysize is 4096 bits
+Please specify how long the key should be valid.
+         0 = key does not expire
+      <n>  = key expires in n days
+      <n>w = key expires in n weeks
+      <n>m = key expires in n months
+      <n>y = key expires in n years
+Key is valid for? (0)
+Key does not expire at all
+Is this correct? (y/N) y
+
+GnuPG needs to construct a user ID to identify your key.
+
+Real name: Shashank Rajbhandari
+Email address: shawdatcoder@gmail.com
+Comment: GPG
+You selected this USER-ID:
+    "Shashank Rajbhandari (GPG) <shawdatcoder@gmail.com>"
+
+Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? O
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+gpg: /c/Users/Shash/.gnupg/trustdb.gpg: trustdb created
+gpg: key D3F8DEC04ADBF8C2 marked as ultimately trusted
+gpg: directory '/c/Users/Shash/.gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/c/Users/Shash/.gnupg/openpgp-revocs.d/AA13CAA09A755AF99731191FD3F8DEC04ADBF8C2.rev'
+public and secret key created and signed.
+
+pub   rsa4096 2019-07-23 [SC]
+      AA13CAA09A755AF99731191FD3F8DEC04ADBF8C2
+uid                      Shashank Rajbhandari (GPG) <shawdatcoder@gmail.com>
+sub   rsa4096 2019-07-23 [E]
+
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /d/TheProject
+$ gpg --list-secret-keys --keyid-format LONG
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+/c/Users/Shash/.gnupg/pubring.kbx
+---------------------------------
+sec   rsa4096/D3F8DEC04ADBF8C2 2019-07-23 [SC]
+      AA13CAA09A755AF99731191FD3F8DEC04ADBF8C2
+uid                 [ultimate] Shashank Rajbhandari (GPG) <shawdatcoder@gmail.com>
+ssb   rsa4096/B286D18366632AB8 2019-07-23 [E]
+
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /d/TheProject
+$ gpg --armor --export D3F8DEC04ADBF8C2
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+6Br3npakxF7h3V17+XlJ
+=hlyr
+-----END PGP PUBLIC KEY BLOCK-----
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /d/TheProject
+$ git clone git@github.com:shawdatcoder/projectrepo
+Cloning into 'projectrepo'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 7 (delta 0), reused 4 (delta 0), pack-reused 0
+Receiving objects: 100% (7/7), done.
+
+Shash@LAPTOP-UBKV5HC9 MINGW64 /d/TheProject
+$
