@@ -1,0 +1,72 @@
+Goal of this meeting:
+
+Discuss what the project is:
+Main goal is learning
+Devops Pipeline - CI/CD
+Have a multi tier <b>web application</b> with a DB layer, a service layer and a front end.
+Have logging
+2 Factor authentication
+Keep costs low.
+
+
+
+Discuss the technologies we are using for this project:
+
+Pool of ideas for web service:
+Ancestry System
+Game Character Universes
+Ticket system
+Chatbot
+Forum
+Data Tracker
+
+
+Repo - Github
+DB Layer - SQL Server
+Web Service - .NET Core
+Front End - HTML/CSS/JS - React/Angular
+Testing - Selenium/front end testing
+Backside testing n/xUnit
+Agile Board - TBD
+<i>NoSQL DB - Mongo and related technologies</i>
+Devops - Azure
+Build Agent / CI - TeamCity or azure devops
+Authentication - Sessions/ etc. 
+
+Discuss the next meeting 
+-Research Agile Board
+- Do research on technologies in general - expand the technology secition
+- Do research on wether to use scrum or KanBan
+- Research a CI/CD pipeline
+- Team Name
+- Start on Assigning task
+- Do it without the board
+
+Discuss in future goals/general:
+- Set up pipeline
+- Get hello world working
+- Discuss furthur on what exactly the application will be
+
+EVeryones Roles in group:
+Suraj - Scrum Master, Documentation(BA), DB
+Jon - Github - Web Service - Pipeline - Back End - Db
+Arthur - Web Service - FrontEnd
+Kurtis - DB - Web Service - Back End
+Sam - Front End - Pipeline - Back End - Team Mascot
+Shaw - Web Service - Pipeline
+
+Sprint schedule:
+2 Week Sprint
+Meet in person once a week - Thursday @ Sams
+Standups - Monday/Wednesday - 30 mins
+Sprints start on Monday
+Effort: 4 Hours a day - 20 Hours a week
+
+What I want you to have next meeting:
+Wednesday - Online
+Thursday - IRL Thursday
+Suraj - Agile Board Selected
+Everyone - Research Devops Pipeline
+Everyone - Github
+Solve Research Questions
+
