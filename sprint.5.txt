@@ -1,0 +1,31 @@
+Sprint 1:
+
+What we got done last week:
+Set up reposity
+Set up github
+
+Technologies Researched:
+None
+
+Stuff we want:
+
+Testing technologies
+Frontend: Selenium
+Back End - Unit and integration: nUnit, End to End testing
+Automated testing - TeamCity
+
+Agile Technologies:
+- Easy to use
+-free for 7 members
+www.softwaretestinghelp.com/agile-project-management-tools/
+https://hygger.io/pricing/
+https://backlog.com/pricing/
+
+What are we going to do next(tomorrow)?
+Set up agile tracker
+Set up repo for everyone
+
+TODO(for tomorrow):
+GET GIT~!!
+Pick an Agile tracker
+Go to sams at 7:00

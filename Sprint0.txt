@@ -54,6 +54,7 @@ Arthur - Web Service - FrontEnd
 Kurtis - DB - Web Service - Back End
 Sam - Front End - Pipeline - Back End - Team Mascot
 Shaw - Web Service - Pipeline
+Todd - Back end - DB - Web Service
 
 Sprint schedule:
 2 Week Sprint
