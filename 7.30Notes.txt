@@ -1,0 +1,26 @@
+Notes 7.30
+
+What have we done the past week?
+Everyone is connected to git
+We chose a scrumboard
+Kurtis got a DB up
+Kurtis made user logins for everyone in the DB
+The DB has roles as well
+
+What challenges were there?
+
+Goal of the project?
+Textbox to change
+
+DB - SQL SERVER
+Backend - C# REST API using MVC
+FrontEnd - Javascript - Angular
+
+
+Stuff to do for next time:
+Getting IPs set up for the DB
+See if everyone can write to the DB
+Get server up - shouldnt take long
+
+Misc notes:
+Add a DB folder to git
