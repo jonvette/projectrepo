@@ -8,18 +8,20 @@ Kurtis made user logins for everyone in the DB
 The DB has roles as well
 
 What challenges were there?
+Suraj couldnt show up
 
 Goal of the project?
-Textbox to change
+List that we can add to
 
 DB - SQL SERVER
 Backend - C# REST API using MVC
-FrontEnd - Javascript - Angular
+FrontEnd - Angular (Dynamic refresh)
 
 
 Stuff to do for next time:
+Thursday online @ 8:00
 Getting IPs set up for the DB
-See if everyone can write to the DB
+See if everyone can write to the DB - do during meeting
 Get server up - shouldnt take long
 
 Misc notes:
