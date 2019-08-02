@@ -1,0 +1,6 @@
+Please add information related to Sql server here:
+
+{
+  "servername": {},
+  "db": {}
+}
