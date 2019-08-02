@@ -1,6 +1,6 @@
 Please add information related to Sql server here:
 
 {
-  "servername": {},
+  "servername": {xyztechnology.database.windows.net},
   "db": {}
 }
