@@ -1,0 +1,18 @@
+Notes for 8.1
+
+What did we accomplish
+Everyone is connected to DB except todd and suraj
+
+Challenges
+
+What we need to get done for the next week
+
+MVC Web API - SAM
+List Table - Kurtis
+Front End - Arthur + sam
+
+Front End:
+Angular Application
+
+Tutorial used for VM Setup
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal
