@@ -1,7 +1,13 @@
-﻿################################################################################
+﻿*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
+.vs
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
 /Sql Server/shawdatslogininfo.7z
-/Sql Server/shawdatslogininfo.txt
 /Apps/WebApi/.vs/WebApi/v16
