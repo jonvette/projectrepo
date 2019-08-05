@@ -1,0 +1,17 @@
+Table: [ListItems]
+Controller: ListItemsController
+Dbcontxt :  dbSet<ListItem> ListItems   
+EntityModel: ListItem
+
+
+
+Create table
+Create entityModel class reflecting the table
+Create DbContextClass and add dbset (this propName has to MATCH the table name)
+Create WebAPI controller
+
+
+have  entityframework installed
+add connectionstring in appsetting.json
+
+
