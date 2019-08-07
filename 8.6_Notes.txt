@@ -1,0 +1,22 @@
+What we got done last week:
+
+Sam - looked up tutorial on MVC project
+Arthur - Looked up some front end stuff
+Jon - Got domain name for Build Server
+Shaw - Made Web API connect to DB
+Kurits - got everyone connected to DB
+
+1 thing to share - 
+Jon - Set up azure VM so everyone can use it
+Shaw - did Web API
+Kurtis - Did DB
+Sam - Hiiiiiiiii
+Arthur - good job
+Suraj - Still doing diagram
+Todd - Web Api
+
+
+New Challege - Discuss what version of Visual Studio we are using
+
+
+Thursday - Get Web API working
