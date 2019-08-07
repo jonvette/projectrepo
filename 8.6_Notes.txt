@@ -19,4 +19,6 @@ Todd - Web Api
 New Challege - Discuss what version of Visual Studio we are using
 
 
-Thursday - Get Web API working
+Thursday 08082019
+- Get Web API working  
+- Clean up repo
