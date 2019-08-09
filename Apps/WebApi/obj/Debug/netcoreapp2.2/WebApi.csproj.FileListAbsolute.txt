@@ -12,3 +12,17 @@ D:\ProjectRepo\projectrepo\Apps\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyIn
 D:\ProjectRepo\projectrepo\Apps\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorTargetAssemblyInfo.cache
 D:\ProjectRepo\projectrepo\Apps\WebApi\obj\Debug\netcoreapp2.2\WebApi.dll
 D:\ProjectRepo\projectrepo\Apps\WebApi\obj\Debug\netcoreapp2.2\WebApi.pdb
+D:\Git\Foreal\ProjectRepo\projectrepo\Apps\WebApi\bin\Debug\netcoreapp2.2\WebApi.deps.json
+D:\Git\Foreal\ProjectRepo\projectrepo\Apps\WebApi\bin\Debug\netcoreapp2.2\WebApi.runtimeconfig.json
+D:\Git\Foreal\ProjectRepo\projectrepo\Apps\WebApi\bin\Debug\netcoreapp2.2\WebApi.runtimeconfig.dev.json
+D:\Git\Foreal\ProjectRepo\projectrepo\Apps\WebApi\bin\Debug\netcoreapp2.2\WebApi.dll
+D:\Git\Foreal\ProjectRepo\projectrepo\Apps\WebApi\bin\Debug\netcoreapp2.2\WebApi.pdb
+D:\Git\Foreal\ProjectRepo\projectrepo\Apps\WebApi\obj\Debug\netcoreapp2.2\WebApi.csprojAssemblyReference.cache
+D:\Git\Foreal\ProjectRepo\projectrepo\Apps\WebApi\obj\Debug\netcoreapp2.2\WebApi.csproj.CoreCompileInputs.cache
+D:\Git\Foreal\ProjectRepo\projectrepo\Apps\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorAssemblyInfo.cache
+D:\Git\Foreal\ProjectRepo\projectrepo\Apps\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorAssemblyInfo.cs
+D:\Git\Foreal\ProjectRepo\projectrepo\Apps\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyInfoInputs.cache
+D:\Git\Foreal\ProjectRepo\projectrepo\Apps\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyInfo.cs
+D:\Git\Foreal\ProjectRepo\projectrepo\Apps\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorTargetAssemblyInfo.cache
+D:\Git\Foreal\ProjectRepo\projectrepo\Apps\WebApi\obj\Debug\netcoreapp2.2\WebApi.dll
+D:\Git\Foreal\ProjectRepo\projectrepo\Apps\WebApi\obj\Debug\netcoreapp2.2\WebApi.pdb

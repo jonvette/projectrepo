@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectRepo\\projectrepo\\Apps\\WebApi\\WebApi.csproj": {}
+    "D:\\Git\\Foreal\\ProjectRepo\\projectrepo\\Apps\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "D:\\ProjectRepo\\projectrepo\\Apps\\WebApi\\WebApi.csproj": {
+    "D:\\Git\\Foreal\\ProjectRepo\\projectrepo\\Apps\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectRepo\\projectrepo\\Apps\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "D:\\Git\\Foreal\\ProjectRepo\\projectrepo\\Apps\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "D:\\ProjectRepo\\projectrepo\\Apps\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\Shash\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectRepo\\projectrepo\\Apps\\WebApi\\obj\\",
+        "projectPath": "D:\\Git\\Foreal\\ProjectRepo\\projectrepo\\Apps\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\Foreal\\ProjectRepo\\projectrepo\\Apps\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Shash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\samue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
