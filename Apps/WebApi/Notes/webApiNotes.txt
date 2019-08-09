@@ -3,19 +3,16 @@ Controller: ListItemsController
 Dbcontxt :  dbSet<ListItem> ListItems   
 EntityModel: ListItem
 
-
-
 Create table
 Create entityModel class reflecting the table
 Create DbContextClass and add dbset (this propName has to MATCH the table name)
 Create WebAPI controller
 
-
 have  entityframework installed
 add connectionstring in appsetting.json
 
-take out appsetting.json
-
-
+Cor: enabling cors allows webApi to interact with external components like postman.
+PostMan notes: since we are using https in order to have postman communicate with https you need to disable SSL verification on postmans end
+do this from file > settings > general > SSL
 
 
