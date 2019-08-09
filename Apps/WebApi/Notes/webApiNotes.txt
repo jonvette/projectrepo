@@ -14,4 +14,8 @@ Create WebAPI controller
 have  entityframework installed
 add connectionstring in appsetting.json
 
+take out appsetting.json
+
+
+
 
