@@ -39,6 +39,7 @@ namespace WebApi
                 c.SwaggerDoc("v1", new Info { Title = "WebAPI", Version = "v1" });
             });
 
+            //Register sqlserver connection 
             services.AddDbContext<ListContext>(options => options.UseSqlServer(Configuration.GetConnectionString("XyzTechonologyDb")));
         }
 
