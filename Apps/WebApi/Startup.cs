@@ -68,6 +68,8 @@ namespace WebApi
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                //uncomment below for server level deployment
+                //c.RoutePrefix = string.Empty;
             });
 
         }
