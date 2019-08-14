@@ -16,3 +16,8 @@ PostMan notes: since we are using https in order to have postman communicate wit
 do this from file > settings > general > SSL
 
 
+refer to some swag notes in Startup
+swagger configured and integrated
+to see endpoints: go to
+https://localhost:44346/swagger/index.html
+ 

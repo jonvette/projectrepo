@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <Folder Include="EntityDataModels\" />
+    <Folder Include="Tasks\" />
   </ItemGroup>
 
 </Project>
