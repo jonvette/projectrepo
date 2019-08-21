@@ -6,11 +6,14 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ProjectRepoFrontEnd.Models;
+using ProjectRepoFrontEnd.Utility;
 
 namespace ProjectRepoFrontEnd.Controllers
 {
     public class HomeController : Controller
     {
+
+
         public IActionResult Index()
         {
             return View();
@@ -33,7 +36,7 @@ namespace ProjectRepoFrontEnd.Controllers
 
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri("https://localhost:44346/api/");
+                client.BaseAddress = Constants.apiURI;
 
                 var responseTask = client.GetAsync("ListItems");
                 responseTask.Wait();
@@ -51,13 +54,51 @@ namespace ProjectRepoFrontEnd.Controllers
                 else
                 {
                     listViews = Enumerable.Empty<ListViewModel>();
-                    ModelState.AddModelError(string.Empty, "Server error try again");
+                    var reason = result.ReasonPhrase;
+                    ModelState.AddModelError(string.Empty, reason);
                 }
             }
 
             return View(listViews);
         }
 
+
+        public IActionResult GetItem(int id)
+        {
+            ListViewModel listView = null;
+
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = Constants.apiURI;
+                var responseTask = client.GetAsync("ListItems/" + id);
+                responseTask.Wait();
+
+                var result = responseTask.Result;
+
+                if (result.IsSuccessStatusCode)
+                {
+                    var readTask = result.Content.ReadAsAsync<ListViewModel>();
+
+                    readTask.Wait();
+
+                    listView = readTask.Result;
+                }
+                else
+                {
+
+                    var reason = result.ReasonPhrase;
+                    listView = new ListViewModel() { id = 0, item = reason };
+                    ModelState.AddModelError(string.Empty,reason);
+                }
+            }
+
+            return View(listView);
+        }
+
+
+    
+        }
+
         
     }
-}
+
